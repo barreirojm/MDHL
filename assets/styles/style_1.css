@@ -6,7 +6,7 @@ header {
     text-align: center;
 }
 
-#banner {
+.banner {
     width: 80%;
     top: 0;
     right: 0;
@@ -20,7 +20,7 @@ h1 {
     left: 16px;
 }
 
-#logo {
+.logo {
     width: 5%;
     height: 10%;
     position: absolute;
