@@ -6,23 +6,53 @@ header {
     text-align: center;
 }
 
+h1 {
+    font: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-align: left;
+}
+
 .banner {
     width: 80%;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-}
-
-h1 {    
-    position: absolute;
-    top: 8px;
-    left: 16px;
+    display: inline;
+    object-fit: contain;
 }
 
 .logo {
     width: 5%;
     height: 10%;
-    position: absolute;
     float: right;
+}
+
+h2 {
+    font: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+nav a {
+    display: block;
+
+}
+
+.schedule {
+    font: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+footer {
+    font: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-align: center;
 }
