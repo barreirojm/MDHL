@@ -168,6 +168,15 @@ a:hover {
    
 }
 
+.mailto-txt-1 {
+    font-family: 'Trebuchet MS';
+    margin-left: 25px;
+    font-size: 22px;
+    border-bottom: 20px;
+    padding-top: 20px;
+   
+}
+
 /* footer {
     font-weight: bold;
     font-family: Verdana;
