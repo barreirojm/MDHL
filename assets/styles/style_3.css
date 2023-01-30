@@ -215,7 +215,7 @@ footer {
     padding-bottom: 50px;
 }
 
-.redes {
+/* .redes {
     transition-duration: 1s;
     transition-timing-function: ease-in;
 }
@@ -223,7 +223,7 @@ footer {
 .redes:hover {
     transform: scale(1.5);
     transform-origin: center center;
-}
+} */
 
 .icono-redes {
     transition-duration: 1s;
