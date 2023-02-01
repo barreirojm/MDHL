@@ -11,6 +11,8 @@ header {
     height: 800px;
     /* width: 100%;
     height: 100%; */
+    display: flex;
+    align-items: center;
     
 }
 
@@ -22,9 +24,7 @@ h1 {
     color: white;
     /* display: block; */
     /* position: fixed; */
-    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
-               1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
-    position:absolute;
+    text-shadow: 2px 2px 4px black;
     top:50px;
     width: 100%;
 
@@ -215,17 +215,22 @@ footer {
     padding-bottom: 50px;
 }
 
-/* .redes {
+.redes {
     transition-duration: 1s;
     transition-timing-function: ease-in;
+    
 }
 
 .redes:hover {
     transform: scale(1.5);
+    /* transform: scale(2);
     transform-origin: center center;
-} */
+    transition-duration: 1s;
+    transition-timing-function: ease-in; */
+}
 
-.icono-redes {
+
+/* .icono-redes {
     transition-duration: 1s;
     transition-timing-function: ease-in;
 }
@@ -233,4 +238,4 @@ footer {
 .icono-redes:hover {
     transform: scale(1.5);
     transform-origin: center center;
-}
+} */
