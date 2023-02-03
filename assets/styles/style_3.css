@@ -334,17 +334,27 @@ ol > li::marker {
 
 .tabla {
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 90px;
   margin-bottom: 150px;
   display: flex;
   justify-content: flex-start;
+  text-align: left;
+}
+
+.primer-col {
   text-align: center;
+}
+
+.celda-doble {
+  vertical-align: middle;
 }
 
 th,
 td {
-  width: 200px;
+  width: 220px;
   height: 50px;
+  /* text-align: left; */
+  padding: 12px;
 }
 
 .sangria {
