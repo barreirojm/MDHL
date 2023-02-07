@@ -399,3 +399,48 @@ td {
   max-width: 900px;
   margin-bottom: 150px;
 }
+
+.formulario {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  font-size: 20px;
+  line-height: 45px;
+  margin-top: 50px;
+  margin-left: 100px;
+  padding: 0px;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-weight: bold;
+  border: 25px;
+}
+
+.footer-registation {
+  margin-top: 300px;
+}
+
+#first_name,
+#last_name {
+  width: 35%;
+}
+
+#address {
+  width: 80%;
+}
+
+#city,
+#zip_code {
+  width: 42%;
+}
+
+input[type="submit"] {
+  font-size: 23px;
+  font-style: italic;
+  padding: 8px 8px 8px 8px;
+  margin-top: 15px;
+}
