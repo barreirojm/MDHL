@@ -292,6 +292,18 @@ h3 {
   text-decoration: underline;
 }
 
+.location {
+  margin-left: 100px;
+}
+
+.maps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+
 .parrafo {
   text-indent: 25px;
 }
@@ -359,7 +371,7 @@ td {
 
 .mas-data {
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 100px;
   line-height: 3em;
   display: flex;
   flex-direction: column;
@@ -373,7 +385,7 @@ td {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-top: 15px;
   max-width: 900px;
 }
