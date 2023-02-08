@@ -429,6 +429,7 @@ td {
 }
 
 .mas-data {
+  width: 65%;
   margin-top: 50px;
   margin-left: 100px;
   line-height: 3em;
@@ -471,7 +472,7 @@ legend {
 }
 
 .footer-registation {
-  margin-top: 300px;
+  margin-top: 500px;
 }
 
 #first_name,
